@@ -1,0 +1,21 @@
+body{
+    background-color: #262626;
+    align-items: center;
+    text-align: center;
+}
+
+/* Ver Depois */
+h1{
+    
+    /* -webkit-text-fill-color: transparent; */
+    font-family: 'MinhaFonte', sans-serif;
+    color: green;
+    /* -webkit-background-clip: text; */
+}
+
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('/Jogo-Phaser/assets/Minecraft.ttf') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
