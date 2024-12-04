@@ -117,7 +117,7 @@ class PlayScene extends BaseScene {
                 }
             } else {
                 //Modifique Aqui
-                this.requestText.setText('Sem bananas suficientes! Colete mais bananas.');
+                this.showErrorImage();
             }
         });
         
@@ -154,7 +154,7 @@ class PlayScene extends BaseScene {
                 }
             } else {
                 //Modifique Aqui
-                this.requestText.setText('Sem bananas suficientes! Colete mais bananas.');
+                this.showErrorImage();
             }
         });
         // Alteração
@@ -211,6 +211,7 @@ class PlayScene extends BaseScene {
     
         // Reinicializa o estoque
         this.bananasInStorage = 99;
+        // lembrete
         localStorage.setItem('bananasBau', this.bananasInStorage);
     
         // Reinicia o texto e elementos visuais
@@ -708,7 +709,7 @@ class PlayScene extends BaseScene {
             this.updateStorageText();
             } else {
                 // Modifique Aqui
-                this.requestText.setText(`Sem bananas suficientes no armazém!`);
+                this.showErrorImage();
             }
     }
     createPauseButton() {

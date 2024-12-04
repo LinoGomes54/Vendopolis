@@ -24,7 +24,7 @@ class ScoreScene extends BaseScene {
         this.add.image(340, 295, 'score_points').setScale(2);
 
         // Exibe o total de dinheiro acumulado
-        this.add.text(400, 355, ` : $${moneyTotal}`, {
+        this.add.text(400, 355, `   $${moneyTotal}`, {
             fontFamily: 'MinhaFonte',
             fontSize: '30px',
             fill: '#fff',
