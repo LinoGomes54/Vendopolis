@@ -337,7 +337,7 @@ class PlayScene extends BaseScene {
                     this.bananasInStorage += 30; // Adiciona 30 bananas ao estoque
                     this.updateStorageText(); // Atualiza o texto do estoque
                     this.moneyText.setText(`$ ${this.moneyEarned}`); // Atualiza o dinheiro na interface
-                    this.animateButton(this.comprarbanana10); // Anima o botão
+                    // this.animateButton(this.comprarbanana10); // Anima o botão
     
                     // Exibe a imagem "bananacomprada.png" em movimento de zigzag
                     this.showBananaPurchasedImage();
@@ -364,7 +364,7 @@ class PlayScene extends BaseScene {
                     this.bananasInStorage += 80; // Adiciona 80 bananas ao estoque
                     this.updateStorageText(); // Atualiza o texto do estoque
                     this.moneyText.setText(`$ ${this.moneyEarned}`); // Atualiza o dinheiro na interface
-                    this.animateButton(this.comprarbanana20); // Anima o botão
+                    // this.animateButton(this.comprarbanana20); // Anima o botão
     
                     // Exibe a imagem "bananacomprada.png" em movimento de zigzag
                     this.showBananaPurchasedImage();
